@@ -1,21 +1,22 @@
 {
-  "name": "microservices-redis",
-  "version": "1.0.0",
-  "description": "test microservices with nodejs and redis",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ignacio Herreria",
-  "license": "MIT",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.20.0",
-    "express": "^4.18.1",
-    "jsonwebtoken": "^8.5.1",
-    "nanoid": "^4.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.18"
-  }
+    "name": "microservices-redis",
+    "version": "1.0.0",
+    "description": "test microservices with nodejs and redis",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ignacio Herreria",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^3.0.7",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "nanoid": "^2.1.7",
+        "swagger-ui-express": "^4.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.18"
+    }
 }
